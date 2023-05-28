@@ -30,6 +30,10 @@ var App = {
 
       // TODO: Use the data to update Messages and Rooms
       // and re-render the corresponding views.
+
+      MessagesView.render();
+      RoomsView.render();
+      this.stopSpinner();
     });
   },
 
